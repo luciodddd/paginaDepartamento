@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>RealEstate | Buying</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/grid_12.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/slider-2.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/jqtransform.css">
+<script src="js/jquery-1.7.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/cufon-yui.js"></script>
+<script src="js/vegur_400.font.js"></script>
+<script src="js/Vegur_bold_700.font.js"></script>
+<script src="js/cufon-replace.js"></script>
+<script src="js/tms-0.4.x.js"></script>
+<script src="js/jquery.jqtransform.js"></script>
+<script src="js/FF-cash.js"></script>
+<script>
+$(document)
+    .ready(function () {
+    $('.form-1')
+        .jqTransform();
+    $('.slider')
+        ._TMS({
+        show: 0,
+        pauseOnHover: true,
+        prevBu: '.prev',
+        nextBu: '.next',
+        playBu: false,
+        duration: 1000,
+        preset: 'fade',
+        pagination: true,
+        pagNums: false,
+        slideshow: 7000,
+        numStatus: false,
+        banners: false,
+        waitBannerAnimation: false,
+        progressBar: false
+    })
+});
+</script>
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body>
+<div class="main">
+  <!--==============================header=================================-->
+  <header>
+    <div>
+      <!-- <h1><a href="index.html"><img src="images/logo.jpg" alt=""></a></h1>
+      <div class="social-icons"> <span>Follow Us:</span> <a href="#" class="icon-3"></a> <a href="#" class="icon-2"></a> <a href="#" class="icon-1"></a> </div> -->
+  
+      <div id="slide">
+        <div class="slider">
+          <ul class="items">
+            <li><img src="images/slider-1-small.jpg" alt=""></li>
+            <li><img src="images/slider-2-small.jpg" alt=""></li>
+            <li><img src="images/slider-3-small.jpg" alt=""></li>
+          </ul>
+        </div>
+        <a href="#" class="prev"></a><a href="#" class="next"></a> </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="imagenes.html">El departamento</a></li>
+          <li class="current"><a href="ubicacion.html">Ubicación</a></li>
+          <li><a href="actividades.html">¿Qué hacer?</a></li>
+          <!--<li><a href="finance.html">Finance</a></li>-->
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!--==============================content================================-->
+  <section id="content">
+    <div class="container_12">
+      <div class="grid_8">
+        <h2 class="top-1 p3">Podes vernos en el mapa!</h2>
+        <p>dirección N° 1234, barrio XX, Carlos Paz</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.221379029707!2d-64.19050978485218!3d-31.408026181406967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943298795c1e4739%3A0xe7fa055d08bc1f14!2sHumberto%20Primo%20500%2C%20X5000FAJ%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1654629061729!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h3 class="top-1 p3">Otros lugares a visitar: </h3>
+        <div class="lists-2">
+          <ul class="list-1">
+            <li><a href="#">Teatro Carlos paz</a></li>
+            <li><a href="#">Club</a></li>
+            <li><a href="#">Bla bla bla</a></li>
+          </ul>
+          <ul class="list-1">
+            <li><a href="#">Interdum mattis uisque</a></li>
+            <li><a href="#">Eget erat eget mi laoreet</a></li>
+            <li><a href="#">Pharetra eget tortor</a></li>
+          </ul>
+          <ul class="list-1 last">
+            <li><a href="#">Integer eros massa</a></li>
+            <li><a href="#">Viverra quis pharetra</a></li>
+            <li><a href="#">Ultrices mauris phasellus</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="left-1">
+          <h2 class="top-1 p3">Cómo llegar</h2>
+          <p class="color-1">Si venís en colectivo </p>
+          <p>Sit amet arcu justo in commodo consect etur lacus ac ultrices cras porta dignissim turpis fermentum porttitor aenean scelerisque nunc vel turpis faucibus vestibulum aenean volutpat iaculis nunc, sed accumsan lacus imperdiet eu. </p>
+          <br>
+          <p class="color-1">Si venís en auto </p>
+          <p>Hacés bla bla bla y la cochera está en bla bla bla.</p>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </section>
+</div>
+<!--==============================footer=================================-->
+<footer>
+  <p>Número de teléfono: +351564654654654</p>
+  <p>Correo: aaa@aaaa-com.ar</p>
+</footer>
+<script>Cufon.now();</script>
+</body>
+</html>
